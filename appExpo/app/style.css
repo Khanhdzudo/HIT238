@@ -1,0 +1,39 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+#menu
+{
+  background-color:#44783e;
+
+}
+.banner {
+
+  background-image:url("./img/background1.jpg");
+
+}
+
+.portfolio-item {
+	min-height: 100%;
+	display: block;
+}
+
+.portfolio-item.next-btn {
+	background: #060606;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.portfolio-item.next-btn h2 {
+	color: #fff;
+	font-size: 41px;
+}
