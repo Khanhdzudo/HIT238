@@ -8,7 +8,7 @@ export default function App() {
   return (
     <WebView 
       style={styles.container}
-      source={{ uri: 'https://khanhdzudo.github.io/app/index.html' }}
+      source={{ uri: 'https://s328390.brambling.cdu.edu.au/HIT238/index.php' }}
     />
   );
 }
