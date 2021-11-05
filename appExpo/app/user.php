@@ -22,7 +22,7 @@ if ($_POST['submit']=="Postphoto")
 			getimagesize($_FILES["fileToUpload"]["tmp_name"]);
 			if($check !== false) {
 		//	echo "File is an image - " . $check["mime"] .
-			".";
+		//	".";
 			$uploadOk = 1;
 			}else{
 				$errorArray[] =  "File is not an image.";
